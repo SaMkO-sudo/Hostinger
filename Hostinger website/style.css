@@ -1,0 +1,254 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 16px;
+
+}
+.logo{
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+#hero{
+    width: 100%;
+    padding: 120px 0;
+    background-color: #270a47;
+}
+.main-hero{
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    
+}
+
+.main-hero .hero-content h1{
+    font-size: 88px;
+    color: white;
+    margin-bottom: 25px;
+}
+.main-hero .hero-content p{
+    font-size: 24px;
+    color: white;
+    margin-bottom: 50px;
+}
+.main-hero .btn {
+    
+    color: white;
+    padding: 15px 45px ;
+    border-radius: 30px;
+    background-color: #7634bf;
+    text-decoration: none;
+    transition: 0.5s ;
+    
+}
+.main-hero .btn:hover{
+    background-color: #5d1ba6;
+}
+
+
+/* finance */
+.finance1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+}
+.finance1 .finance-img img{
+    max-width: 100%;
+    padding: 20px 20px;
+    border-radius: 10%;
+}
+.finance1 .content{
+    
+    margin: auto;
+    
+}
+.finance1 .content h2{
+    font-size: 46px;
+    line-height: 1.02;
+    margin-bottom: 15px;
+   
+}
+.finance1 .content p{
+    font-size: 19px;
+    line-height: 1.02;
+}
+
+/* testimonails */
+
+.testimonials{
+    display: grid;
+    grid-template-columns: 1fr 1fr
+}
+
+.testimonial{
+    display: flex;
+    gap: 35px;
+
+}
+.title{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+.testimonial .testimonial-img img{
+    width: 100px;
+    border-radius: 5px;
+}
+.testimonial .testimonial-content p{
+    color: white;
+}
+
+
+/* numbers */
+#Hero{
+    background-color: #1c0633;
+
+    padding: 100px 100px;
+}
+.numbers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+}
+
+.numbers .number h1{
+    font-size: 88px;
+    text-align: center;
+}
+.numbers .number h6{
+    font-size: 20px;
+    text-align: center;
+}
+/* waiting */
+.waiting{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+.waiting .phone-img img{
+    max-width: 100%;
+}
+.waiting .what-are-u-waiting-content {
+    margin: auto;
+    color: white
+    ;
+}
+.waiting .what-are-u-waiting-content h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.waiting .what-are-u-waiting-content p{
+    font-size: 16px;
+    margin-bottom: 30px;line-height: 1.2;
+}
+.what-are-u-waiting-content .btn {
+    
+    color: white;
+    padding: 15px 45px ;
+    border-radius: 30px;
+    background-color: #7634bf;
+    text-decoration: none;
+    transition: 0.5s ;
+    
+}
+.what-are-u-waiting-content .btn:hover{
+    background-color: #5d1ba6;
+}
+/* footer */
+
+#footer {
+   
+    background-color: #1c0633;
+    padding: 100px 0px;
+
+}
+
+.main-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr  1fr;
+    gap: 100px;
+    color: white;
+}
+
+.main-footer h5 {
+    margin-top: 25px;
+    font-size: 15px;
+    color: gray;
+}
+.main-footer .social-media-icons .logo h1{
+    font-size: 25px;
+    text-decoration: none;
+}
+.main-footer .social-media-icons svg {
+    margin-top: 50px;
+    width: 30px;
+    fill: gray;
+}
+
+
+
+
+/* footer addres div */
+
+.main-footer .addres h1 {
+
+    color: gray;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.main-footer .addres li {
+    color: gray;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+
+/* News-letter footer */
+
+
+.main-footer .news-letter h1 {
+    margin-left: 20px;
+    color: gray;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.main-footer .news-letter h4 {
+
+    color: gray;
+
+    margin-bottom: 20px;
+}
+
+.main-footer .news-letter .email {
+    display: flex;
+    gap: 10px;
+    color: white;
+}
+
+.main-footer .news-letter input {
+    background-color: grey;
+    padding: 8px 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+}
+
+.main-footer .news-letter .btn {
+    background-color: grey;
+    padding: 5px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+}
