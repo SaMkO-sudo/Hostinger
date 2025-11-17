@@ -1,5 +1,21 @@
 # Hostinger
-Recreated the Hostinger website template using HTML/CSS.
-Currently not responsive — desktop view only.
+Hostinger Website Recreation
 
-Template used: https://builder.hostinger.com/vA7t6GArCTFDktuT
+A recreation of a Hostinger website template, built using HTML and CSS.
+This version focuses on layout and styling practice.
+
+⚠️ Status
+
+The website is not responsive and dont plan making it till i learn a little more i alrdy know responsive
+it's just that some responsive i don't know.
+
+🔗 Template Source
+
+Original design inspiration:
+https://builder.hostinger.com/vA7t6GArCTFDktuT
+
+🛠️ Tech Used
+
+HTML5
+
+CSS3
